@@ -1,125 +1,461 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="ru-RU">
   <head>
-    <meta charset="utf-8"/>
-    <meta content="" name="author"/>
-    <meta content="" name="description"/>
-    <meta content="" name="keywords"/>
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <meta content="ie=edge" http-equiv="x-ua-compatible"/><link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/foundation.css"/>
-    <link rel="stylesheet" href="/assets/css/app.css"/>
-    <script src="/assets/js/index.js" defer="defer"></script><!--[if lt IE 9]>
+    <meta charset="utf-8">
+    <title>Index page</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="/assets/css/foundation.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/foundation.js"></script>
+    <script src="/assets/js/app.js"></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
-  <body class="auth">
-    <div class="preloader" id="page-preloader">
-      <div class="loader"><span id="load-perc"></span></div>
+  <body>
+    <div class="aside"><a class="nav__trigger no-animation" href="#"><span></span><span></span><span></span></a>
+      <div class="logo-wrap"><img src="/assets/img/main-logo.png"></div>
+      <nav class="nav nav-main">
+        <div class="nav-slimscroll">
+          <ul class="nav-main__list">
+            <li class="nav-main__item"><a class="nav-main__link" href="/index.html">Главная</a></li>
+            <li class="nav-main__item"><a class="nav-main__link" href="/pages/company-offshor.html">Офшорные компании</a></li>
+            <li class="nav-main__item"><a class="nav-main__link" href="/pages/company-europa.html">Европейские компании</a></li>
+            <li class="nav-main__item"><a class="nav-main__link" href="/pages/company-asia.html">Азиатские компании</a></li>
+            <li class="nav-main__item"><a class="nav-main__link" href="/pages/company-usa.html">Компании в США</a></li>
+            <li class="nav-main__item"><a class="nav-main__link" href="/pages/bank-account.html">Банковские счета</a></li>
+            <li class="nav-main__item"><a class="nav-main__link" href="/pages/residence-permit.html">ВНЖ</a></li>
+            <li class="nav-main__item nav-main__item-sub"><i class="fa fa-sort-desc nav-main__icon-list" aria-hidden="true"></i><a class="nav-main__link nav-main__sub-link" href="#">Получение лицензии</a>
+              <ul class="nav-main__sub-list">
+                <li class="nav-main__item"><a class="nav-main__link" href="/pages/forex.html">Форекс</a></li>
+                <li class="nav-main__item"><a class="nav-main__link" href="/pages/casino.html">Онлайн казино  </a></li>
+                <li class="nav-main__item"><a class="nav-main__link" href="/pages/investion.html">Инвестиционная лицензия</a></li>
+                <li class="nav-main__item"><a class="nav-main__link" href="/pages/pay-sistem.html">Платежные системы</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="contacts-link"><a class="icon-block header__mail" href="mailto:info@prifinance.com"><i class="fa fa-envelope fa--style" aria-hidden="true"></i><span>info@cks35.ru</span></a></div>
+        </div>
+      </nav>
     </div>
-    <div class="animation-bg">
-      <div class="parallax" id="parallax">
-        <div class="wrapper"></div>
-        <div class="auth-stars"></div>
-        <div class="clouds"></div>
-        <div class="twinkling"></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_1.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_2.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_3.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_4.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_5.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_6.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_7.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_8.png"/></div>
-        <div class="parallax__layer"><img class="parallax__image" src="/assets/img/parallax/_layer_9.png"/></div>
-        <div class="clouds-2"></div>
-      </div>
-    </div>
-    <div class="auth__wrap"><a class="btn btn__auth">Авторизация</a></div>
-    <div class="user__wrap flip__container">
-      <div class="flipper">
-        <div class="front">
-          <div class="user">
-            <div class="user__block-info">
-              <div class="user__wrap-img"></div>
-              <h2 class="heading__sub">Станислав Жуковский</h2><span class="user__prof">Личный сайт веб разработчика</span>
-              <div class="socials">
-                <ul class="social__list list">
-                  <li class="list__item social__list-item"><a class="list__link social__list-link" href="https://vk.com/staniszhuk" target="_blank">
-                      <svg class="icon">
-                        <use xlink:href="../assets/img/sprite/sprite.svg#vk"></use>
-                      </svg></a></li>
-                  <li class="list__item social__list-item"><a class="list__link social__list-link" href="skype:ylitylia" target="_blank">
-                      <svg class="icon">
-                        <use xlink:href="../assets/img/sprite/sprite.svg#skype"></use>
-                      </svg></a></li>
-                  <li class="list__item social__list-item"><a class="list__link social__list-link" href="https://github.com/StasZhuk" target="_blank">
-                      <svg class="icon">
-                        <use xlink:href="../assets/img/sprite/sprite.svg#github"></use>
-                      </svg></a></li>
-                </ul>
+    <div class="main-content">
+      <header class="header">
+        <div class="header__top">
+          <div class="header__company-desc"><span>Регистрация</span><span>и обслуживание</span><span>компаний с 1995 года</span></div>
+          <div class="header__contacts">
+            <div class="header__contacts-phone"><a class="icon-block header__country-phone" href="tel:#"><i class="icon-flag flag-ru fa--style" aria-hidden="true"></i><span>+7 921 654 32 10</span></a><a class="icon-block header__country-phone" href="tel:#"><i class="icon-flag flag-ru fa--style" aria-hidden="true"></i><span>+7 499 654 32 10</span></a></div>
+            <div class="header__big-phone"><a class="icon-block header__about-phone" href="tel:#"><i class="icon-flag flag-ru fa--style" aria-hidden="true"></i><span>8 800 200 99 67</span></a></div>
+          </div>
+          <div class="btn__wrap"><a class="btn btn-popup-order" href="#popup-order"><span>Заказать звонок</span></a></div>
+        </div>
+      </header>
+      <section class="header__bottom">
+        <div class="container">
+          <div class="header__action-wrap">
+            <div class="slider__wrap slider-obshor__wrap">
+              <div class="index-slider"> 
+                <div class="index slide">
+                  <div class="action">
+                    <h2 class="action__date">Акция до 31 августа</h2><span class="action__bonus">При покупке компании банковский счет в подарок</span>
+                    <div class="btn__wrap"><a class="btn btn--action btn-popup-order" href="#popup-order">Оставить заявку </a></div>
+                  </div>
+                  <div class="header__video-wrap">
+                    <video class="video video--header">
+                      <source src="movie.mp4" type="video/mp4; codecs=&quot;avc1.42E01E&quot;">
+                      <source src="movie.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+                    </video>
+                  </div>
+                </div>
+                <div class="index slide">
+                  <div class="action">
+                    <h2 class="action__date">Акция до 31 августа</h2><span class="action__bonus">При покупке компании банковский счет в подарок</span>
+                    <div class="btn__wrap"><a class="btn btn--action btn-popup-order" href="#popup-order">Оставить заявку </a></div>
+                  </div>
+                  <div class="header__video-wrap">
+                    <video class="video video--header">
+                      <source src="movie.mp4" type="video/mp4; codecs=&quot;avc1.42E01E&quot;">
+                      <source src="movie.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+                    </video>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="auth__nav">
-              <ul class="auth__nav-list">
-                <li class="auth__nav-item"><a class="auth__nav-link btn" href="./pages/works.html">Мои работы</a></li>
-                <li class="auth__nav-item"><a class="auth__nav-link btn" href="./pages/about.html">Обо мне</a></li>
-                <li class="auth__nav-item"><a class="auth__nav-link btn" href="./pages/blog.html">Блог</a></li>
+          </div>
+          <h2 class="heading__second">
+             Оффшоры – Лучшие предложения по регистрации компаний</h2>
+        </div>
+      </section>
+      <section class="squares">
+        <ul class="squares__list overlay"> 
+          <li class="squares__item">
+            <div class="squares__link"><span>БЕЛИЗ</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 21 000 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>БРИТАНСКИЕ ВИРГИНСКИЕ ОСТРОВА</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 28 450 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>СЕЙШЕЛЫ</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 15 750 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>ГОНКОНГ</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 79 000 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>ПАНАМА</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 28 450 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>КИПР</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 46 000 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>ШОТЛАНДИЯ LP</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 27 500 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>РАС-ЭЛЬ-ХАЙМА</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 99 500 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>СИНГАПУР</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 295 000 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>НОВАЯ ЗЕЛАНДИЯ</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 75 000 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>СЕНТ-ВИНСЕНТ И ГРЕНАДИНЫ</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 56 000 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+          <li class="squares__item">
+            <div class="squares__link"><span>ОАЭ</span>
+              <div class="square__hov-desc">
+                <div class="coast coast--bg"><span>от 162 000 руб</span></div>
+                <div class="coast__desc"> <span>Регистрация оффшорной компании </span><span>Юридический адрес на год </span><span>печать</span></div><a class="coast__btn btn-popup-order" href="#popup-order">Получить персональное предложение</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="sertificats overlay">
+        <div class="container">
+          <h2 class="heading__second">Нас рекомендуют</h2>
+          <div class="sertificats__gallery row"><a href="./assets/img/_sec_sertificats/sert-1.png"><img src="./assets/img/_sec_sertificats/sert-1.png"></a><a href="./assets/img/_sec_sertificats/sert-2.png"><img src="./assets/img/_sec_sertificats/sert-2.png"></a><a href="./assets/img/_sec_sertificats/sert-3.png"><img src="./assets/img/_sec_sertificats/sert-3.png"></a></div>
+        </div>
+      </section>
+      <section class="whywe overlay">
+        <div class="container">
+          <h2 class="heading__second text--white">Почему выбирают нас</h2>
+        </div>
+        <div class="container-grid">
+          <ul class="list">
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-briefcase" aria-hidden="true"></i></div><span class="item-desc">Вникаем в деятельность клиента</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-unlock-alt" aria-hidden="true"></i></div><span class="item-desc">Полная конфиденциальность</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-eye-slash" aria-hidden="true"></i></div><span class="item-desc">Не храним документы клиента</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-refresh" aria-hidden="true"></i></div><span class="item-desc">Работаем 24 часа и без выходных</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-btc" aria-hidden="true"></i></div><span class="item-desc">Оплата любым способом, включая Биткойны</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section smi">
+        <div class="container">
+          <h2 class="heading__second">Сми о нас</h2>
+          <ul class="list">
+            <li class="list__item"><a class="list__link" href="1"><img src="./assets/img/_sec_smi/smi-1.png"></a></li>
+            <li class="list__item"><a class="list__link" href="2"><img src="./assets/img/_sec_smi/smi-2.png"></a></li>
+            <li class="list__item"><a class="list__link" href="3"><img src="./assets/img/_sec_smi/smi-3.png"></a></li>
+            <li class="list__item"><a class="list__link" href="4"><img src="./assets/img/_sec_smi/smi-4.png"></a></li>
+            <li class="list__item"><a class="list__link" href="5"><img src="./assets/img/_sec_smi/smi-5.png"></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section clients">
+        <div class="container">
+          <h2 class="heading__second">Наши клиенты</h2>
+          <ul class="list">
+            <li class="list__item"><a class="list__link" href="1"><img src="./assets/img/_sec-clients/client-1.png"></a></li>
+            <li class="list__item"><a class="list__link" href="2"><img src="./assets/img/_sec-clients/client-2.png"></a></li>
+            <li class="list__item"><a class="list__link" href="3"><img src="./assets/img/_sec-clients/client-3.png"></a></li>
+            <li class="list__item"><a class="list__link" href="4"><img src="./assets/img/_sec-clients/client-4.png"></a></li>
+            <li class="list__item"><a class="list__link" href="5"><img src="./assets/img/_sec-clients/client-5.png"></a></li>
+            <li class="list__item"><a class="list__link" href="6"><img src="./assets/img/_sec-clients/client-6.png"></a></li>
+            <li class="list__item"><a class="list__link" href="7"><img src="./assets/img/_sec-clients/client-7.png"></a></li>
+            <li class="list__item"><a class="list__link" href="8"><img src="./assets/img/_sec-clients/client-8.png"></a></li>
+            <li class="list__item"><a class="list__link" href="9"><img src="./assets/img/_sec-clients/client-9.png"></a></li>
+            <li class="list__item"><a class="list__link" href="10"><img src="./assets/img/_sec-clients/client-10.png"></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section offer overlay">
+        <div class="container">
+          <h2 class="heading__second text--white">
+             Оставьте заявку сейчас и получите персональное предложение</h2>
+          <div class="form__wrap">
+            <form class="form offer__form" id="form-offer" action="" method="post">
+              <ul class="list">
+                <li class="list__item">
+                  <input type="mail" name="mail" placeholder="ваш e-mail" required>
+                </li>
+                <li class="list__item">
+                  <input type="tel" name="phone" placeholder="ваш номер" pattern="[0-9]*" required>
+                </li>
+                <li class="list__item select select--dec">
+                  <select name="service" required>
+                    <option value="Тип усуги" selected disabled>Тип услуги </option>
+                    <option value="service 1">service 1 </option>
+                    <option value="service 2">service 2</option>
+                    <option value="service 3">service 3</option>
+                  </select>
+                </li>
+                <li class="list__item select select--dec">
+                  <select name="country" required>
+                    <option value="Страна" selected disabled>Страна</option>
+                    <option value="country 1">country 1</option>
+                    <option value="country 2">country 2</option>
+                    <option value="country 3">country 3</option>
+                  </select>
+                </li>
               </ul>
-            </div>
+              <div class="btn__wrap">
+                <button class="btn btn--offer" type="submit">Оставить заявку</button>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="back">
-          <div class="user user-auth">
-            <div class="user__block-info">
-              <form class="form form__login" id="form">
-                <div class="heading__sub heading--uppercase">Авторизуйтесть</div>
-                <div class="inputs__wrap">
-                  <div class="inputs__wrap-icon">
-                    <svg class="icon icon-login">
-                      <use xlink:href="../assets/img/sprite/sprite.svg#login"></use>
-                    </svg>
-                  </div>
-                  <input class="input input--white" type="text" name="login" placeholder="Логин" id="form-login" required="required"/><span></span>
-                </div>
-                <div class="inputs__wrap">
-                  <div class="inputs__wrap-icon">
-                    <svg class="icon icon-pass">
-                      <use xlink:href="../assets/img/sprite/sprite.svg#password"></use>
-                    </svg>
-                  </div>
-                  <input class="input input--white" type="password" name="login" placeholder="Пароль" id="form-password" required="required"/><span></span>
-                </div>
-                <div class="inputs__wrap inputs__flex-wrap checkbox">
-                  <input type="checkbox" id="check-human"/>
-                  <label for="check-human">Я чеовек</label>
-                </div>
-                <div class="radio-group">
-                  <div class="radio__desc">Вы точно не робот?</div>
-                  <div class="radio__wrap inputs__flex-wrap">
-                    <input class="radio" type="radio" name="human" value="Yes" id="radio-yes"/>
-                    <label for="radio-yes">Да</label>
-                  </div>
-                  <div class="radio__wrap inputs__flex-wrap">
-                    <input class="radio" type="radio" name="human" value="Nooo" id="radio-no"/>
-                    <label for="radio-no">Не уверен</label>
-                  </div>
-                </div>
-                <div class="auth__nav">
-                  <ul class="auth__nav-list">
-                    <li class="auth__nav-item"><a class="auth__nav-link btn btn__back" href="./pages/about.html">На главную</a></li>
-                    <li class="auth__nav-item">
-                      <button class="auth__nav-link btn btn__login" type="submit" id="submit">Войти        </button>
-                    </li>
-                  </ul>
-                </div>
-              </form>
-            </div>
+      </section>
+      <section class="section pay">
+        <div class="container">
+          <h2 class="heading__second"> Способы оплаты</h2>
+          <ul class="list">
+            <li class="list__item"><a class="list__link" href="1"><img src="./assets/img/_sec_pay/pay-1.png"></a></li>
+            <li class="list__item"><a class="list__link" href="2"><img src="./assets/img/_sec_pay/pay-2.png"></a></li>
+            <li class="list__item"><a class="list__link" href="3"><img src="./assets/img/_sec_pay/pay-3.png"></a></li>
+            <li class="list__item"><a class="list__link" href="4"><img src="./assets/img/_sec_pay/pay-4.png"></a></li>
+            <li class="list__item"><a class="list__link" href="5"><img src="./assets/img/_sec_pay/pay-5.png"></a></li>
+            <li class="list__item"><a class="list__link" href="6"><img src="./assets/img/_sec_pay/pay-6.png"></a></li>
+            <li class="list__item"><a class="list__link" href="7"><img src="./assets/img/_sec_pay/pay-7.png"></a></li>
+            <li class="list__item"><a class="list__link" href="8"><img src="./assets/img/_sec_pay/pay-8.png"></a></li>
+            <li class="list__item"><a class="list__link" href="9"><img src="./assets/img/_sec_pay/pay-9.png"></a></li>
+            <li class="list__item"><a class="list__link" href="10"><img src="./assets/img/_sec_pay/pay-10.png"></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section regions">
+        <div class="container">
+          <h2 class="heading__second"> Регистрация фирм в различных странах</h2>
+          <div class="wrap__desc">
+            <p>«Прифинанс» — авторитетный участник рынка корпоративных услуг. Это компания, оказывающая услуги по регистрации фирм, защите активов, международному налоговому планированию, регистрации/продаже действующих зарубежных предприятий, включая офшоры, зарегистрированные офисы и агентов, директоров и номинальных акционеров. Кроме того, мы оказываем услуги по ежегодной поддержке компаний, открытию банковских счетов и легализации документов. </p>
+            <p>В нашем коллективе — профессиональные юристы с колоссальным опытом в области комплексного сопровождения любого бизнеса. Мы ежедневно работаем над тем, чтобы расширить спектр предоставляемых услуг и создать предпосылки для стабильного и успешного развития компаний заказчиков.</p>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="copyr__wrap">
-      <div class="copyr"><span class="auth-name">© staszhuk</span><br class="visible-sm"/>создано с любовью в LoftSchool | 2017</div>
+      </section>
+      <section class="section whatwedo overlay section--white">
+        <div class="heading__wrap">
+          <div class="container">
+            <h2 class="heading__second text--white"> <span>Спектр услуг компании </span><span>«Центр Корпоративного Содействия»</span></h2>
+            <div class="heading__desc">В компетенции высококвалифицированных специалистов решение следующих задач:</div>
+          </div>
+        </div>
+        <div class="container">
+          <ul class="list">
+            <li class="list__item"><i class="fa fa-check-square-o fa--style" aria-hidden="true"></i>
+              <div class="wrap__desc"><span>открытие оффшорных предприятий</span></div>
+            </li>
+            <li class="list__item"><i class="fa fa-check-square-o fa--style" aria-hidden="true"></i>
+              <div class="wrap__desc"><span>регистрация фирм за рубежом</span></div>
+            </li>
+            <li class="list__item"><i class="fa fa-check-square-o fa--style" aria-hidden="true"></i>
+              <div class="wrap__desc"><span>покупка резидентских компаний</span></div>
+            </li>
+            <li class="list__item"><i class="fa fa-check-square-o fa--style" aria-hidden="true"></i>
+              <div class="wrap__desc"><span>открытие оффшорных счетов в надежных заграничных банках</span></div>
+            </li>
+            <li class="list__item"><i class="fa fa-check-square-o fa--style" aria-hidden="true"></i>
+              <div class="wrap__desc"><span>помощь в получении лицензий для брокерских компаний, казино, платежных систем, банков</span></div>
+            </li>
+            <li class="list__item"><i class="fa fa-check-square-o fa--style" aria-hidden="true"></i>
+              <div class="wrap__desc"><span>оказание консалтинговых, юридических и аудиторских услуг любой сложности</span></div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section ofshor">
+        <div class="container">
+          <div class="heading__wrap">
+            <h2 class="heading__second">Работа с офшорами</h2>
+          </div>
+          <div class="wrap__desc">
+            <p>
+               Вести успешный бизнес, ограничиваясь внутренним рынком города, области и даже страны не всегда целесообразно. В условиях внутренней нестабильности, глобализации и развития международных отношений предприниматели стремятся расширить сферы влияния, диверсифицировать риски и оптимизировать расходы; обеспечить себе гарантии сохранности капитала и конфиденциальность. </p>
+            <p>
+               Все это возможно получить, распространив деятельность на оффшоры. Это страны или отдельные территории с лояльными законами для бизнесменов-нерезидентов.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section actuality">
+        <div class="container">
+          <div class="heading__wrap">
+            <h2 class="heading__second">Почему это актуально</h2>
+          </div>
+          <div class="wrap__desc">
+            <p>
+               Иметь зарубежное представительство престижно. Это объясняет популярность, которую приобретает сегодня оффшор. Зачастую с фирмой, зарегистрированной в Гонконге (одном из главных финансовых центров мира) или на Сейшельских островах (с лояльными условиями налогообложения) иностранные партнеры будут работать охотнее, чем с отечественной компанией. Кроме того, грамотно подобрав оффшор, можно не только снизить налоговое бремя, но и получить доступ к банковской системе развитой страны. Здесь, в условиях экономической и политической стабильности, гораздо легче сохранить и приумножить капитал.</p>
+            <p>Оффшоры — объект повышенного интереса. Как правило, процедура регистрации в них проста, но требует знаний и времени, чем не всегда располагает владелец бизнеса. Необходимо выбрать оптимальный оффшор, изучить законодательство, учесть все нюансы. Можно с головой погрузиться в этот процесс или позаботиться о своем времени, доверив все хлопоты сотрудникам «Прифинанс». Во втором случае удастся сосредоточится на профильной деятельности, что позитивно скажется на финансовом результате.</p>
+            <p>Для бизнесменов, рассматривающих оффшоры как обязательный шаг на пути к успеху, такая возможность сулит массу выгод:</p>
+            <p><span>минимальную вовлеченность в процесс;</span><span>оффшор «под ключ» со сбором бумаг, консультациями, сопровождением экспертами «Прифинанс» на всех span стадиях;</span><span>сведение к нулю вероятности ошибок;</span><span>экономию времени;</span><span>сохранение анонимности;</span><span>широкий спектр сопутствующих услуг и так далее.</span><span>Оффшоры подходят для всех видов деятельности, которые не признаны незаконными. Некоторые из них нуждаются в span дополнительном лицензировании (страхование, банковская деятельность). Выгоднее всего размещать в лояльных span юрисдикциях компании, деятельность которых связана с:</span></p>
+            <p><span>экспортно-импортными операциями;</span><span>международной торговлей;</span><span>банковским делом;</span><span>авиабизнесом;</span><span>крюингом;</span><span>IT и так далее.</span></p>
+          </div>
+        </div>
+      </section>
+      <section class="section partners">
+        <div class="container">
+          <h2 class="heading__second">Наши Партнеры</h2>
+          <ul class="list">
+            <li class="list__item"><a class="list__link" href="1"><img src="./assets/img/_sec_partners/partner-1.png"></a></li>
+            <li class="list__item"><a class="list__link" href="2"><img src="./assets/img/_sec_partners/partner-2.png"></a></li>
+            <li class="list__item"><a class="list__link" href="3"><img src="./assets/img/_sec_partners/partner-3.png"></a></li>
+            <li class="list__item"><a class="list__link" href="4"><img src="./assets/img/_sec_partners/partner-4.png"></a></li>
+            <li class="list__item"><a class="list__link" href="5"><img src="./assets/img/_sec_partners/partner-5.png"></a></li>
+            <li class="list__item"><a class="list__link" href="6"><img src="./assets/img/_sec_partners/partner-6.png"></a></li>
+            <li class="list__item"><a class="list__link" href="7"><img src="./assets/img/_sec_partners/partner-7.png"></a></li>
+            <li class="list__item"><a class="list__link" href="8"><img src="./assets/img/_sec_partners/partner-8.png"></a></li>
+            <li class="list__item"><a class="list__link" href="9"><img src="./assets/img/_sec_partners/partner-9.png"></a></li>
+            <li class="list__item"><a class="list__link" href="10"><img src="./assets/img/_sec_partners/partner-10.png"></a></li>
+            <li class="list__item"><a class="list__link" href="11"><img src="./assets/img/_sec_partners/partner-11.png"></a></li>
+            <li class="list__item"><a class="list__link" href="12"><img src="./assets/img/_sec_partners/partner-12.png"></a></li>
+            <li class="list__item"><a class="list__link" href="13"><img src="./assets/img/_sec_partners/partner-13.png"></a></li>
+            <li class="list__item"><a class="list__link" href="14"><img src="./assets/img/_sec_partners/partner-14.png"></a></li>
+            <li class="list__item"><a class="list__link" href="15"><img src="./assets/img/_sec_partners/partner-15.png"></a></li>
+            <li class="list__item"><a class="list__link" href="16"><img src="./assets/img/_sec_partners/partner-16.png"></a></li>
+            <li class="list__item"><a class="list__link" href="17"><img src="./assets/img/_sec_partners/partner-17.png"></a></li>
+            <li class="list__item"><a class="list__link" href="18"><img src="./assets/img/_sec_partners/partner-18.png"></a></li>
+            <li class="list__item"><a class="list__link" href="19"><img src="./assets/img/_sec_partners/partner-19.png"></a></li>
+            <li class="list__item"><a class="list__link" href="20"><img src="./assets/img/_sec_partners/partner-20.png"></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--white webest overlay">
+        <div class="container">
+          <h2 class="heading__second text--white">Выгоды сотрудничества с «ЦКС»</h2>
+          <div class="wrapper">
+            <p class="text__descr">В работе с клиентами мы используем индивидуальный подход, разрабатываем схемы и варианты ведения бизнеса с учетом специфики деятельности клиента. «ЦКС» — самостоятельная структура, которая, в отличие от посредников, оказывает весь комплекс услуг, предоставляет гарантии профессиональной работы и оперативно реагирует на запросы. Как результат:</p>
+          </div>
+        </div>
+        <div class="container-grid">
+          <ul class="list">
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-tachometer" aria-hidden="true"></i></div><span class="whywe__item-desc">Экономия средстви времени заказчика</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-shield" aria-hidden="true"></i></div><span class="whywe__item-desc">Защита от рисков</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-line-chart" aria-hidden="true"></i></div><span class="whywe__item-desc">Поиск путей повышения показателей эффективности (прибыли)</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-black-tie" aria-hidden="true"></i></div><span class="whywe__item-desc">Компетенции узкопрофильных специалистов</span>
+            </li>
+            <li class="list__item">
+              <div class="icon__wrap"><i class="fa fa-key" aria-hidden="true"></i></div><span class="whywe__item-desc">Полная конфиденциальность</span>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="wrapper">
+            <p class="text--left">Изучая различные компании по регистрации фирм и их предложения, вы едва ли сталкивались с подобным перечнем возможностей и преимуществ. Мы регистрируем фирмы в оншоре и оффшоре, работаем с любой исходной информацией, сопровождаем бизнес в условиях зарубежного, не знакомого вам законодательства, создаем прочный базис для процветания и повышения уровня благосостояния. Избавьте себя от множества организационных нюансов, изучения непрофильной информации, непредвиденных угроз и рисков — доверьтесь экспертам «Прифинанс»</p>
+          </div>
+        </div>
+      </section>
+      <form class="mfp-hide form popup-form-specials" id="popup-order" method="post" action="">
+        <h3 class="form__heading"></h3>
+        <div class="wrap__input col">
+          <input type="tel" placeholder="Контактный телефон*" required><i class="fa fa-phone-square" aria-hidden="true"></i>
+        </div>
+        <div class="wrap__input">
+          <input type="email" placeholder="Ваш e-mail*" required><i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
+        <div class="wrap__input">
+          <textarea placeholder="Ваш вопрос*" rows="7" required></textarea><i class="fa pencil" aria-hidden="true"></i>
+        </div>
+        <div class="wrap__input wrap__input-submit">
+          <input class="btn" type="submit" value="Отправить заявку">
+        </div>
+      </form>
+      <footer class="footer">
+        <div class="container">
+          <div class="copyright">© 2017, «ЦКC»</div>
+          <p class="text__descr">
+            Комплексное сопровождение любого бизнеса – от открытия оффшорной компании до оказания полного перечня консалтинговых, аудиторских и юридических услуг. Высокий уровень профессионализма и ежедневная работа над расширением возможностей позволяют клиентам уверенно чувствовать себя даже в кризисных и нетипичных ситуациях. Ваше благополучие всегда в компетенции «Прифинанс»!
+            
+          </p>
+          <h3 class="heading__sub">Связь с нами:</h3>
+          <ul class="list">
+            <li class="list__item"><a class="link__adress">Punane 56 13619 Tallinn Estonia</a><a class="link__phone text--center" href="tel:+372 6 980 111"> Тел. +372 6 980 111</a></li>
+            <li class="list__item"><a class="link__adress">Punane 56 13619 Tallinn Estonia</a><a class="link__phone text--center" href="tel:+372 6 980 111"> Тел. +372 6 980 111</a></li>
+            <li class="list__item"><a class="link__adress">Punane 56 13619 Tallinn Estonia</a><a class="link__phone text--center" href="tel:+372 6 980 111">Тел. +372 6 980 111</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
